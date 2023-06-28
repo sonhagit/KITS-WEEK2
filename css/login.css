@@ -1,0 +1,129 @@
+body {
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    
+}
+.login{
+    margin: 140px;
+    width: 1100px;
+    height: 700px;
+    background-color: white;
+    border-radius: 20px;
+}
+.img{
+    background-color: rgba(192, 219, 234, 1);
+    border-radius: 20px;
+    height: 700px;
+    position: relative;
+}
+.img1{
+    position: absolute;
+    top: 132px;
+    left: -173px;
+}
+.img1 svg{
+    width: 70%;
+}
+.img2{
+    position: absolute;
+    top: 154px;
+    left: 158px;
+}
+.img2 svg{
+    width: 70%;
+}
+
+form{
+    width: 478px;
+}
+.form-login h1{
+    font-size: 56px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.loginform{
+    margin-top: 158px;
+    margin-left: 73px;
+}
+.btn-login{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 33px;
+    position: relative;
+}
+.password{
+    position: relative;
+}
+.password svg{
+    position: absolute;
+    top: 40px;
+    left: 450px;
+}
+.btn-login svg{
+    width: 3%;
+    position: absolute;
+    left: 120px;
+    top: 16px;
+}
+.btn-login button{
+    width: 150px;
+    height: 46px;
+    background-color: #D885A3;
+    border-radius: 20px;
+    border: none;
+    color: white ;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+.continue{
+    text-decoration: none;
+    color: rgba(96, 150, 180, 1);
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    padding-top: 20px;
+    margin-left: 190px;
+}
+
+form span{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+form input{
+    width: 478px;
+    height: 46px;
+    background-color: rgba(192, 219, 234, 1);
+    border: none;
+    border-radius: 5px;
+}
+.fogetpass{
+    color: lightgrey ;
+    text-decoration: none;
+    margin-left: 298px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+
+.icon{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.icon .icons{
+    text-align: center;
+    width: 120px;
+    height: 50px;
+    border-radius: 20px;
+    border: solid 1px rgba(96, 150, 180, 1);
+}
+.icons svg{
+    margin:12px;
+}
+
+.sign-up{
+    margin-left: 50px;
+}

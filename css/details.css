@@ -1,0 +1,159 @@
+body {
+    background-color: #FFEBEB;
+}
+
+.container-fluid {
+    margin-top: 100px;
+    background-color: white;
+    width: 900px;
+    height: 635px;
+}
+
+.header {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.header h2 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Mukta', sans-serif;
+    color: rgba(21, 101, 192, 1);
+}
+
+.header a {
+    font-family: 'Mukta', sans-serif;
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.sreach input {
+    width: 183px;
+    height: 25px;
+    border-radius: 10px;
+    border: solid 0.5px rgba(0, 0, 0, 0.2);
+    margin-right: 10px;
+    padding-left: 30px;
+    position: relative;
+    background-image: url("https://s3-alpha-sig.figma.com/img/ae40/6128/f3012b96902d816d28e1503545a493ed?Expires=1685318400&Signature=IUytVuZsmnnZLOpw-zotxkfjILlllaL6iSuHa1tXShLhOQ808W9ExwFOaiwFmBWWPUol4dGSoC4Ee-zv4BfB1gnfxc5a5QVi44IQCIgwO2doIESWfmLtRU3FVHMsvky-6NGEjA6tMH4ysL-Wcecd2rS9ci4XquBwTNV-1CWI~mFukgRAD~GejILuA-nWLKYvrULdkLEZfg0n4OVXEHWZl2nPccUAPLKZw-09xXE1mlBJeFpodaAr1zJNNMXoZ-Gc4dqrf0pNXbo4Y3X5MiAgJvr1QFQudqz0B94QkY5RufeRnMP1f1LYgtHYmKAqMIzPvnoy2INT7oICeIdb5z-wEg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: 5%;
+    border-radius: 10px;
+}
+
+
+.sreach {
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+}
+
+.cardd {
+    display: flex;
+    align-items: baseline;
+    border: solid 1px;
+    width: 40px;
+    height: 25px;
+    border-radius: 10px;
+    border: solid 0.5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-right: 10px;
+
+
+}
+
+.cardd img {
+    width: 16px;
+    height: 16px;
+}
+
+.hinh {
+    width: 30px;
+    height: 30px;
+
+}
+
+.product {
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.path {
+    margin-bottom: 10px;
+}
+
+.path a {
+    font-size: 12px;
+    font-family: 'Mukta', sans-serif;
+    margin-right: 5px;
+    color: rgba(71, 71, 71, 1);
+}
+
+.path svg {
+    margin-right: 5px;
+}
+
+.pro-img .big {
+    width: 375px;
+    height: 375px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.small-img {
+    width: 375px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.small-img img {
+    width: 90px;
+    height: 79px;
+    border-radius: 10px;
+}
+
+.pro-img h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.right p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.right span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(21, 101, 192, 1)
+    ;
+}
+
+.right b{
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(21, 101, 192, 1)
+
+}
+
+.itis{
+    font-size: 16px !important;
+    font-weight: lighter !important;
+}
+.but{
+    margin: 0 auto;
+    display: block;
+    padding: 15px;
+    
+}

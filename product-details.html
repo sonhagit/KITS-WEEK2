@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <link href="css/details.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="header">
+                <h2>LuanShop</h2>
+                <nav class="navbar ">
+                    <a>Sales</a>
+                    <a>Products</a>
+                    <a>About</a>
+                    <a>
+                        More
+                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <rect width="12" height="12" fill="url(#pattern0)" />
+                            <defs>
+                                <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                    <use xlink:href="#image0_1_31" transform="scale(0.00195312)" />
+                                </pattern>
+                                <image id="image0_1_31" width="512" height="512"
+                                    xlink:href="data:image/png;base64,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" />
+                            </defs>
+                        </svg>
+
+                    </a>
+                </nav>
+                <div class="sreach">
+                    <input type="text" placeholder="Sreach">
+                    <div class="cardd">
+                        <img
+                            src="https://s3-alpha-sig.figma.com/img/2df2/83db/b4924c8ca63cbde78d0985cda55ec284?Expires=1685318400&Signature=hghtVtY4OgKHRqbJ-iTI4Cirqf2YELGWUmoJGzEHzywtE3f0OhnEzJYh3BDy5Ax478IZwAuYt4p05-lyiVP54aHxLJYiY64BtDXcf8X-au38FlFeFhhDdrsJVxv1xe~tXz7Q97-fsM1Q-uPUudtuC1Kk6RDyGXtTIqnclZ7MohSXc3qVowG7iv7ZF9KbWMOETKaYqpZatG6CkrMHoWycx6IJ5UMB7E15LsXhtlfzZquN-OWr4bWTRZ0v~nvzXgoRu1vvvM6CSMm6qMU~G6-fd-b8qoJTSim5nPREU3Ssle41mQ6EcTignuh67Wii7yx9bBzXPqUBrwNoX3OukTYimA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4">
+                        <p>0</p>
+                    </div>
+
+                    <img class="hinh"
+                        src="https://s3-alpha-sig.figma.com/img/3245/4dfa/1af07952738c877992eff9d975c36b94?Expires=1685318400&Signature=bhccD5gQHXeyTyPS6W-sgL7ol4fDWGa-uxc5Away6B-tbZjKZrzoIJKNd4CeuDRaYcMzh7KL9AlqTX6BXyrIZRRK0te6TuRIoHnnB2s5hSOPX9IcJJpdt6WooxCYJbda6s-VUdJY18aGaQG2zCCZz7lS7fLg0u2jCLFTTAs5JnBkCEUTYfjPC3rfN68muOk1V~w2aH01KguMSNu-xMAJfIalIb4RzHMtqLEWjOjtws~STP18SVQgh1JJpe-eZFUIzewkWahlP3AUNX5h7xZeC627kC2p-F3Fb1yEPrtVyK~IWCB~EJP0~BVEeirpgKMk15iAdDSnGSwRVNR9TV~y~g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4">
+                </div>
+
+            </div>
+
+            <div class="product">
+                <div class="path">
+                    <a>HOME</a>
+                    <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <rect y="8" width="8" height="8" transform="rotate(-90 0 8)" fill="url(#pattern0)" />
+                        <defs>
+                            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0_1_46" transform="scale(0.00195313)" />
+                            </pattern>
+                            <image id="image0_1_46" width="512" height="512"
+                                xlink:href="data:image/png;base64,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" />
+                        </defs>
+                    </svg>
+                    <a>SALE</a>
+                    <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <rect y="8" width="8" height="8" transform="rotate(-90 0 8)" fill="url(#pattern0)" />
+                        <defs>
+                            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0_1_46" transform="scale(0.00195313)" />
+                            </pattern>
+                            <image id="image0_1_46" width="512" height="512"
+                                xlink:href="data:image/png;base64,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" />
+                        </defs>
+                    </svg>
+                    <a>HOODIE</a>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 pro-img">
+                        <img class="big"
+                            src="https://s3-alpha-sig.figma.com/img/3793/0583/169e54344ddeeab44dc997cde5df4920?Expires=1685318400&Signature=NkKUwPKpr8fClW0m9uedULh7f0Gm-Rfz0yfvF34pmFS9cYwESJ9vUaWwskx~taDCTmwU4~oNSqWg0H0MIFhohf~Tt2J12vLqR7mLXmZ~yrdJ9XIg2sLFgBvSQ3gDZBFv7K---ZcAdlgij2HQ8YwNHzQz9~kPVqc-fK0WRApUvQP0Ds3yZPOWHHYl0oGF8fU67tCB08fI0bYBNZGkNUQA1Ju3tL0n3s7nUJ2eUpwMQ9jmU6fmE4VORsly1x4j~ZCc1Tett9TSYFWmAjr-8fBQKVPPCZddAUsym8jAIC3lBjBLnwjV6hD~Lpooh7k5TGmMD~SkvjXyFFP~v4lBX1saUg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4">
+                        <div class="small-img">
+                            <img
+                                src="https://s3-alpha-sig.figma.com/img/2190/ffe3/2ed7d86a86654409645ba6157dc76f25?Expires=1685318400&Signature=YGKcnMgbY9GCJcrS1eomK1eI-UWz9ZPIAec~ytE9OWgAgNXRIaLPcTtLmz-yamvlFTRGw0~-I8gvfy2FLiZBbzqZczktVOSLQhfnFr7FIqW5g5gbiuypyOVW1hUOyw9wJJ~8VZqQ2hovK735ld9URrb9gq0hazk~tDiiIiCRMhLeZdGCad83LRtC4EiFSfi5LudcZzQZRdjZ8yq7nDZE6GTWfALZpEK5VuzbSyFrogTKXFWWSF2UKXiFqLjP3ItSHD2xsqSIXh1FT8vxGfbA26Ya8hdfm4~2mb7NC4One6yaRLGPZcSsV2ac1QocvuJ49JXalALC2ROWdVCYCRPN8A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4">
+                            <img
+                                src="https://s3-alpha-sig.figma.com/img/2190/ffe3/2ed7d86a86654409645ba6157dc76f25?Expires=1685318400&Signature=YGKcnMgbY9GCJcrS1eomK1eI-UWz9ZPIAec~ytE9OWgAgNXRIaLPcTtLmz-yamvlFTRGw0~-I8gvfy2FLiZBbzqZczktVOSLQhfnFr7FIqW5g5gbiuypyOVW1hUOyw9wJJ~8VZqQ2hovK735ld9URrb9gq0hazk~tDiiIiCRMhLeZdGCad83LRtC4EiFSfi5LudcZzQZRdjZ8yq7nDZE6GTWfALZpEK5VuzbSyFrogTKXFWWSF2UKXiFqLjP3ItSHD2xsqSIXh1FT8vxGfbA26Ya8hdfm4~2mb7NC4One6yaRLGPZcSsV2ac1QocvuJ49JXalALC2ROWdVCYCRPN8A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4">
+                            <img
+                                src="https://s3-alpha-sig.figma.com/img/2190/ffe3/2ed7d86a86654409645ba6157dc76f25?Expires=1685318400&Signature=YGKcnMgbY9GCJcrS1eomK1eI-UWz9ZPIAec~ytE9OWgAgNXRIaLPcTtLmz-yamvlFTRGw0~-I8gvfy2FLiZBbzqZczktVOSLQhfnFr7FIqW5g5gbiuypyOVW1hUOyw9wJJ~8VZqQ2hovK735ld9URrb9gq0hazk~tDiiIiCRMhLeZdGCad83LRtC4EiFSfi5LudcZzQZRdjZ8yq7nDZE6GTWfALZpEK5VuzbSyFrogTKXFWWSF2UKXiFqLjP3ItSHD2xsqSIXh1FT8vxGfbA26Ya8hdfm4~2mb7NC4One6yaRLGPZcSsV2ac1QocvuJ49JXalALC2ROWdVCYCRPN8A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4">
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6 right">
+                        <h2>Plaid Sleeve Kangaroo Pocket Drawstring Hoodie</h2>
+                        <p>by <span>Cosmo Fashion</span></p>
+                        <div style="display: flex;">
+                            <b><sup>$</sup>67</b>
+                            <div style="margin-left: 10px;">
+                                <p style="margin-bottom: -5px; color: rgba(41, 182, 246, 1)
+                                ;">Sale 25%</p>
+                                <p>Inclusive deal of the day</p>
+                            </div>
+                        </div>
+
+                        <p class="itis">It is a long established fact that a reader will be distracted by the readable
+                            content of a
+                            page when looking at its layout. </p>
+                        <button type="button" class="but btn btn-primary">Add to card</button>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="detail" onload="fetchdetail()">
+        <h3></h3>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+        integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+        integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+        crossorigin="anonymous"></script>
+    
+
+</body>
+
+</html>
